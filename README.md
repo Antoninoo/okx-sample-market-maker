@@ -1,4 +1,4 @@
-# OKX Sample Market Maker
+7# OKX Sample Market Maker
 
 ## Overview
 This is an unofficial sample Python market marker using [OKX V5 API](https://www.okx.com/docs-v5/en/#overview), based on the [OKX V5 API PYTHON SDK](https://github.com/okxapi/python-okx).
@@ -51,10 +51,10 @@ Portfolio margin:
 
 ### Output
 ```PLACE ORDER limit buy BTC-USDT-SWAP 2.0 @ 26441.4
-PLACE ORDER limit buy BTC-USDT-SWAP 2.0 @ 26414.9
-PLACE ORDER limit buy BTC-USDT-SWAP 2.0 @ 26388.4
-PLACE ORDER limit buy BTC-USDT-SWAP 2.0 @ 26362.0
-PLACE ORDER limit buy BTC-USDT-SWAP 2.0 @ 26335.5
+AMEND ORDER limit buy BTC-USDT-SWAP 2.0 @ 26414.5
+AMEND ORDER limit buy BTC-USDT-SWAP 2.0 @ 26388.4
+AMEND ORDER limit buy BTC-USDT-SWAP 2.0 @ 26362.0
+AMEND ORDER limit buy BTC-USDT-SWAP 2.0 @ 26335.5
 PLACE ORDER limit sell BTC-USDT-SWAP 2.0 @ 26494.5
 PLACE ORDER limit sell BTC-USDT-SWAP 2.0 @ 26521.0
 PLACE ORDER limit sell BTC-USDT-SWAP 2.0 @ 26547.5
@@ -82,16 +82,14 @@ AMEND ORDER orderVrGqNDiF2fiAj6J2Nedv4J with new size 0 or new price 26550.8, re
 AMEND ORDER ordermFnP2ZKhhkeK8YBw4M35cT with new size 0 or new price 26577.2, req_id is amendU5HC3greWaN6HqGvfQgLNN
 AMEND ORDER orderEY4tUgAFzYtqea4qTbbTdC with new size 0 or new price 26603.7, req_id is amendJsqVtyBMp6pfsrrsR79kch
 ...
-KeyboardInterrupt
-
-CANCELING ORDER orderaFZBngCqMjsxVHjDtD2TBC
-CANCELING ORDER order7edCnqJf8LSaASr7aUF8Ep
-CANCELING ORDER orderSp6zyec6vk6reducoebAw8
-CANCELING ORDER order4xSjPPTyiCosUfX7M4dYcT
-CANCELING ORDER order68zeuyF56N4NH6FqKsnHbU
-CANCELING ORDER orderL4mncCFYWPCagUEYQkxeuQ
-CANCELING ORDER orderTFLxbR9tTPLU8kE4HXxJ5w
-CANCELING ORDER orderVrGqNDiF2fiAj6J2Nedv4J
-CANCELING ORDER ordermFnP2ZKhhkeK8YBw4M35cT
-CANCELING ORDER orderEY4tUgAFzYtqea4qTbbTdC
+AMEND ORDER orderaFZBngCqMjsxVHjDtD2TBC
+AMEND ORDER order7edCnqJf8LSaASr7aUF8Ep
+AMEND ORDER orderSp6zyec6vk6reducoebAw8
+AMEND ORDER order4xSjPPTyiCosUfX7M4dYcT
+AMEND ORDER order68zeuyF56N4NH6FqKsnHbU
+AMEND ORDER orderL4mncCFYWPCagUEYQkxeuQ
+AMEND ORDER order TFLxbR9tTPLU8kE4HXxJ5w
+AMEND ORDER orderVrGqNDiF2fiAj6J2Nedv4J
+AMEND ORDER ordermFnP2ZKhhkeK8YBw4M35cT
+AMEND 00ORDER orderEY4tUgAFzYtqea4qTbbTdC
 ```
